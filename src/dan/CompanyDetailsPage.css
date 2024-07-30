@@ -1,0 +1,137 @@
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&display=swap');
+
+.main-content{
+  background-color: rgba(231, 235, 249, 1);
+  color: rgba(10, 57, 197, 1);
+  font-family: Montserrat, sans-serif;
+  margin: 0 auto;
+  width:917px;
+  height:1029px;
+}
+.header-image{
+  display: flex;
+  align-items: center;
+  width: 917px;
+  height: 251px;
+}
+.text-headerImg {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+h1{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 20px;
+}
+.headerText {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+}
+.content-box{
+  padding: 40px;
+  width: 917px;
+  height: 778px;
+}
+p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height:20px;
+}
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    padding-top: 20px;
+    width: 789px;
+    height: 67px;
+}
+.contact-container {
+  display: flex;
+  padding-top: 40px;
+}
+strong, .bold{
+  font-weight: 600;
+  font-size:14px;
+  line-height:20px;
+}
+.contactUs{
+  width: 382px;
+  height: 120px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.managers {
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 55px;
+    grid-row-gap: 5px;
+    margin-left: 50px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.manager {
+  margin-bottom: 20px;
+}
+table{
+  width:358px;
+  height:120px;
+}
+tr{
+  width: 358px;
+  height: 30px;
+}
+.first{
+  background-color: rgba(189, 206, 255, 1);
+}
+.second{
+  background-color: rgba(209, 219, 251, 1);
+}
+.bold{
+  padding-left:5px;
+}
+.slim{
+  font-size: 14px;
+  line-height:18px;
+  font-weight:400;
+}
+ul {
+  list-style-type:none;
+  margin-left: 0;
+  padding-left: 0;
+}
+li{
+  margin-top: 5px;
+}
+a{
+  text-decoration: none;
+  color:rgba(10, 57, 197, 1)
+}
+.fa-solid{
+margin-right:5px;
+}
+.alignIcons {
+  display: flex;
+  justify-content: space-between;}
+
+.social-icon{
+font-size: 27px;
+margin-right: 16px
+}
+h2{
+  font-weight: 600;
+  font-size:20px;
+}
+.space{
+  margin-left: 5px;;
+}
+#moveWeb{
+  margin-bottom: 15px;
+}

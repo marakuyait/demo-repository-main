@@ -1,0 +1,18 @@
+body {
+  color: #2958e5;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+img {
+  width: 17rem;
+  height: 11.5rem;
+}
