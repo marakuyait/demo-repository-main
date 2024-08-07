@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './DescriptionStyle.css'
 
 const CompanyDescription = ({ company }) => {
@@ -25,27 +24,14 @@ const CompanyDescription = ({ company }) => {
             <strong>Fleet:</strong> {company.fleet}
           </p>
           <p>
-            {' '}
             <strong>Cargos:</strong> {company.cargos.join(', ')}
-          </p>
-        </div>
-        <div className="contact-info">
-          <p>
-            <strong>Phone: </strong>
-            {company.phone}
-          </p>
-          <p>
-            <strong>Fax:</strong> {company.fax}
-          </p>
-          <p>
-            <strong>Email: </strong>
-            <a href={`mailto:${company.email}`}>{company.email}</a>
           </p>
         </div>
         <div className="social-media-icons">
           <a
             href={company.facebookLink}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               src="https://image.similarpng.com/very-thumbnail/2020/04/Popular-facebook-Logo-png.png"
@@ -55,6 +41,7 @@ const CompanyDescription = ({ company }) => {
           <a
             href={company.instagramLink}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8lv-iEOWtRxGDqsOR-Pa1kIiqN298569zVA&s"
@@ -62,6 +49,18 @@ const CompanyDescription = ({ company }) => {
             />
           </a>
         </div>
+      </div>
+      <div className="extra-info">
+        <p>
+          <strong>Phone:</strong> {company.phone}
+        </p>
+        <p>
+          <strong>Fax:</strong> {company.fax}
+        </p>
+        <p>
+          <strong>Email:</strong>{' '}
+          <a href={`mailto:${company.email}`}>{company.email}</a>
+        </p>
         <button className="company-page-button">Company Page</button>
       </div>
       <button className="apply-button">APPLY FOR JOB</button>

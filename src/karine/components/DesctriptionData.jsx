@@ -1,11 +1,6 @@
-import './DescriptionStyle.css';
-import './CompanyDescription';
-import React from 'react'
-
-
  const company = {
   name: 'ITF logistics',
-  logo: 'https://marketplace.canva.com/EAF5lVrtgYg/1/0/800w/canva-blue-and-orange-logistics-logo-nWC-8tBqWb8.jpg',
+  logo: '/src/karine/components/pictures/e948592c6c5a1022f18fe18d527af199.png',
   website: 'www.itflogistics.com',
   description: 'We are the best at what we are doing',
   location: 'Chicago',
@@ -19,11 +14,4 @@ import React from 'react'
 }
 
 
-  return (
-    <div>
-      <CompanyDescription company={company} />
-    </div>
-  )
-
-
-export default DesctriptionData
+export default company
